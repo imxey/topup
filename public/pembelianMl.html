@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price List MLBB</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p id="judul">Azila Store</p>
+            <nav>
+                <a href="/">Home</a></li>
+                <a href="#">Product</a></li>
+                <a href="#">About</a></li>
+                <a href="#">Contact</a></li>
+            </nav>
+        </header>
+        <div class="formMl">
+            <h2 id="judulFormMl">Formulir Pembelian Diamond MLBB</h2>
+            <div class="form-group">
+                <form id="formDiamond" method="POST" action="/purchase">
+                <label for="nama">Nama:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                <input type="text" name="nama" id="nama" placeholder="Masukkan nama anda" required><br><br>
+                <label for="id">Server ID:&nbsp</label>
+                <input type="text" name="server" id="server" placeholder="SERVER" required>
+                <input type="text" name="id" id="id" placeholder="ID" required><br><br>
+                <label for="noHP">Whatsapp: </label>
+                <input type="text" name="noHp" id="noHp" placeholder="NOMOR WHATSAPP" required><br><br>
+                <label for="paket">Diamond:&nbsp&nbsp</label>
+                <select id="paket" name="paket" required>
+                <option>Pilih Diamond</option>
+                <option value="70 DM (Rp 17.400)">70 DM (Rp 17.400)</option>
+                <option value="140 DM (Rp 34.000)">140 DM (Rp 34.000)</option>
+                <option value="254 DM (Rp 68.000)">254 DM (Rp 68.000)</option>
+                <option value="390 DM (Rp 84.000)">390 DM (Rp 84.000)</option>
+                <option value="429 DM (Rp 103.000)">429 DM (Rp 103.000)</option>
+                <option value="716 DM (Rp 168.000)">716 DM (Rp 168.000)</option>
+                <option value="1054 DM (Rp 249.000)">1054 DM (Rp 249.000)</option>
+                <option value="1446 DM (Rp 336.000)">1446 DM (Rp 336.000)</option>
+                </select> <br><br>
+                <input type="submit" value="Submit" >
+                
+        </select>
+        </div>
+    </div>
+</body>
+</html>

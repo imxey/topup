@@ -1,0 +1,280 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    overflow-x: hidden;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;}
+    
+header{
+    position: fixed;
+    top:0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color:black;
+    
+    padding-bottom: 8px;
+    z-index: 1000; /* Memberikan nilai z-index tinggi untuk memastikan elemen nav di atas elemen lain */
+    font-size: larger;
+}
+nav{
+    position: relative;
+    left: 34px;
+    bottom: 27px;
+    
+}
+nav a{
+    margin: 0 10px;
+}
+#judul{
+    position: relative;
+    right: 15%;
+    top:15px;
+}
+.games {
+    position: absolute;
+    top: 80px;
+    left: 10%;
+    width: 100%;
+    right: 10%;
+    text-align: center;
+}
+a {
+    color: inherit; /* Mengambil warna dari elemen induknya */
+    text-decoration: none; /* Menghapus garis bawah default */
+}
+.games > h2{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.mlbb{
+    position: absolute;
+    width: 15%;
+    transition: 1s;
+    
+}
+.mlbb:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+img {
+    width: 100%;
+}
+.gensin{
+    position: absolute;
+    width: 15%;
+    left: 21%;
+    transition: 1s;
+}
+
+.gensin:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.valo{
+    position: absolute;
+    width: 15%;
+    left: 42%;
+    top : 135px;
+    transition: 1s;
+}
+
+.valo:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.pubg{
+    position: absolute;
+    width: 15%;
+    left: 63%;
+    transition: 1s;
+}
+
+.pubg:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.lol{
+    position: absolute;
+    width: 15%;
+    transition: 1s;
+    top : 380px;
+}
+
+.lol:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.epep{
+    position: absolute;
+    width: 15%;
+    left: 21%;
+    top : 380px;
+    transition: 1s;
+}
+
+.epep:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.hsr{
+    position: absolute;
+    width: 15%;
+    left: 42%;
+    top : 380px;
+    transition: 1s;
+}
+
+.hsr:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.aov{
+    position: absolute;
+    width: 15%;
+    left: 63%;
+    top : 380px;
+    transition: 1s;
+}
+
+.aov:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.lainnya {
+    position: absolute;
+    top: 750px;
+    left: 10%;
+    width: 100%;
+    right: 10%;
+    text-align: center;
+}
+.lainnya > h2 {
+    text-align: left;
+}
+.pulsa{
+    position: absolute;
+    width: 15%;
+    transition: 1s;
+}
+
+.pulsa:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.listrik{
+    position: absolute;
+    width: 15%;
+    left: 21%;
+    transition: 1s;
+}
+
+.listrik:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.listrik img {
+    height: 150px;
+}
+.ml-kotak{
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    top: 25%;
+}
+#dmMl{
+    width: 20%;
+}
+.ml-kotak1{
+    position: absolute;
+    width: 20%;
+    border: 2px solid purple;
+    left: 130px;
+}
+.ml-kotak2{
+    position: absolute;
+    width: 20%;
+    border: 2px solid purple;
+    left: 50%;
+}
+.ml-kotak3{
+    position: absolute;
+    width: 20%;
+    border: 2px solid purple;
+    left: 130px;
+    top: 160px;
+}
+.ml-kotak4{
+    position: absolute;
+    width: 20%;
+    border: 2px solid purple;
+    left: 50%;
+    top: 160px;
+}
+
+.ml-kotak5{
+    position: absolute;
+    width: 20%;
+    border: 2px solid purple;
+    left: 130px;
+    top: 320px;}
+
+.ml-kotak6{
+    position: absolute;
+    width: 20%;
+    border: 2px solid purple;
+    left: 50%;
+    top: 320px;
+}
+
+.ml-kotak7{
+    position: absolute;
+    width: 20%;
+    border: 2px solid purple;
+    left: 130px;
+    top: 480px;}
+
+.ml-kotak8{
+    position: absolute;
+    width: 20%;
+    border: 2px solid purple;
+    left: 50%;
+    top: 480px;}
+
+#judulDm{
+    position: absolute;
+    top: 70px;
+}
+#judulFormMl{
+    position: absolute;
+    top: 100px;
+}
+#buynowMl{
+    position: absolute;
+    top: 300px;
+    right: 200px;
+    border: 2px solid ;
+    padding: 5px;
+    animation: jedagjedug 0.9s infinite alternate;
+}
+@keyframes jedagjedug {
+    0% { transform: scale(1.1); }
+    
+    50% { transform: scale(1.2); }
+    
+    100% { transform: scale(1); }
+}
