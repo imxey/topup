@@ -20,9 +20,9 @@ app.post('/purchase', (req, res) => {
     const { nama, server, id, noHp, paket } = req.body;
 
     // Kirim pesan WhatsApp
-    const client = twilio('ACe40eafd88c762b4ffd88e12955c87143', '1df0e277bf97bbf32d34c8ecfa5a8901');
-    const twilioNumber = '+14155238886';
-    const userPhoneNumber = '+6281211499250'; // Nomor WhatsApp pengguna
+    const client = twilio('(Your_SSID)', '(Your_Token)');
+    const twilioNumber = 'TwilioNumber';
+    const userPhoneNumber = 'YourNumber'; // Nomor WhatsApp pengguna
     const purchaseDetails = `Nama: ${nama}\n ID: ${id}(${server})\n Nomor: wa.me/${noHp}\n Item: ${paket}`;
 
     client.messages.create({
